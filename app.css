@@ -31,7 +31,7 @@ button {
   padding: 10px 20px;
 }
 
-.disable {
+.disabled {
   pointer-events: none;
   opacity: 0.5;
 }
