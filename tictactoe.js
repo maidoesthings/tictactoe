@@ -36,6 +36,7 @@ class Game {
     this.isDraw = false;
     this.currentPlayer = 'X';
     this.gameMessageContainer.innerHTML = '';
+    this.gameContainer.classList.remove('disabled');
     this.play();
   }
 
