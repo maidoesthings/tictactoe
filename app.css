@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #cccccc;
+  text-align: center;
+}
+
+.row {
+  display: block;
+}
+
+.cell {
+  background-color: #000000;
+  min-height: 50px;
+  min-width: 50px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px; 
+}
+
+#game-message {
+  min-height: 25px;
+  margin: 10px 5px;
+}
+
+button {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 10px 20px;
+}
+
+.disable {
+  pointer-events: none;
+  opacity: 0.5;
+}
